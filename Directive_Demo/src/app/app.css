@@ -1,0 +1,46 @@
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-container {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;   
+  align-items: center;     
+  gap: 20px;
+  flex-wrap: wrap;          
+  margin-top: 30px;
+}
+
+.product-card{
+    text-align: center;
+    border: 1px solid #08e0c4af;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #e2f10b81;
+}
+
+
+.product-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #2009ec;
+}
+
+.product-price
+{
+    color:rgb(247, 5, 5);
+    font-size: 20px;
+}
+
+.product-description
+{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-style:oblique;
+}
